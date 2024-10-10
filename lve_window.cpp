@@ -26,4 +26,11 @@ void LveWindow::createWindowSurface(VkInstance instance, VkSurfaceKHR *surface) 
 	}
 }
 
+VkExtent2D LveWindow::getExtent() {
+	VkExtent2D extent;
+	extent.width = (uint32_t)width;
+	extent.height = (uint32_t)height;
+	return extent;
+}
+
 }

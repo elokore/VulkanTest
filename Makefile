@@ -4,7 +4,7 @@ CFLAGS = -std=c++17 -O3 -I$(VULKAN_SDK_PATH)/include
 LDFLAGS = -lglfw -lvulkan -ldl -lpthread -lX11 -lXxf86vm -lXrandr -lXi
 
 VulkanTest: main.cpp
-	g++ $(CFLAGS) -o VulkanTest main.cpp lve_window.cpp lve_pipeline.cpp lve_device.cpp first_app.cpp $(LDFLAGS)
+	g++ $(CFLAGS) -o VulkanTest main.cpp lve_window.cpp lve_pipeline.cpp lve_device.cpp first_app.cpp lve_swap_chain.cpp $(LDFLAGS)
 
 .PHONY: test clean
 
