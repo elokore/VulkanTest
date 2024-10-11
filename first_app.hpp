@@ -25,8 +25,8 @@ public:
 private:
 	void createPipelineLayout();
 	void createPipeline();
-	void createCommandBuffers() {};
-	void drawFrame() {};
+	void createCommandBuffers();
+	void drawFrame();
 
 	LveWindow lveWindow{ WIDTH, HEIGHT, "Hello Vulkan!" };
 	LveDevice lveDevice{lveWindow};
