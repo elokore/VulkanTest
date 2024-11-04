@@ -24,10 +24,19 @@
     <ClCompile Include="first_app.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="lve_pipline.cpp">
+    <ClCompile Include="lve_device.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="lve_device.cpp">
+    <ClCompile Include="lve_swap_chain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lve_pipeline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lve_model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lve_game_object.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -42,6 +51,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="lve_device.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lve_swap_chain.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lve_model.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lve_game_object.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
